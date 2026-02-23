@@ -1,0 +1,27 @@
+/* Use category color instead of calendar color */
+.calendar-category-box {
+    margin: -20% -10% -10% 120% !important;
+    width: 120% !important;
+    opacity: 0.55 !important;
+}
+
+.alarm-icons-box, .reminder-icon {
+    margin: 0 !important;
+}
+
+.event-name-label, .item-time-label, .alarm-icons-box, .reminder-icon {
+    z-index: 100000 !important;
+}
+
+.calendar-item-flex {
+    padding: 2% !important;
+}
+
+.calendar-month-day-box-list-item {
+    margin: 0 !important;
+}
+
+.calendar-color-box {
+    border: none !important;
+    border-radius: 5% !important;
+}
