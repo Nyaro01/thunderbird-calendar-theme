@@ -4,14 +4,12 @@ first you need to create an chrome folder under …/<your_profile>/
 
 ## For Thunderbird installed over Flatpack
 ```bash
-mkdir ~/.var/app/org.mozilla.Thunderbird/.thunderbird/<your_profile>/chrome
-cd ~/.var/app/org.mozilla.Thunderbird/.thunderbird/<your_profile>/chrome
+curl -L https://raw.githubusercontent.com/Nyaro01/thunderbird-calendar-theme/main/userChrome.css -o ~/.thunderbird/<your_profile>/chrome/userChrome.css
 ```
 put the css file in the newlie created folder
 
 ## For Thunderbird installed over standard Packagemanager
 ```bash
-mkdir ~/.thunderbird/<your_profile>/chrome
-cd ~/.thunderbird/<your_profile>/chrome
+curl -L https://raw.githubusercontent.com/Nyaro01/thunderbird-calendar-theme/main/userChrome.css -o ~/.thunderbird/<your_profile>/chrome/userChrome.css
 ```
 put the css file in the newlie created folder
