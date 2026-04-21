@@ -2,6 +2,7 @@
 ## how it works
 this css-theme uses the color of any category and displays it as background of the event-feld
 
+![Theme Example](exampleImage.jpg)
 
 ## install
 
