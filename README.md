@@ -1,15 +1,24 @@
 # thunderbird-calendar-theme
 
-first you need to create an chrome folder under …/<your_profile>/
+first you need to find out what the name of your profile folder is
+therefore 
+1. open thunderbird
+2. go to thunderbird menu
+3. click on tools
+4. click on export
+5. click on open folder
+6. then your_profile should be the foldername, something like ****.default, this is the name you need
+
+## Thunderbird installed over Packagemanagers like pacman, dnf, apt … 
+```bash
+mkdir -p ~/.thunderbird/<your_profile>/chrome
+curl -L https://raw.githubusercontent.com/Nyaro01/thunderbird-calendar-theme/main/userChrome.css -o ~/.thunderbird/<your_profile>/chrome/userChrome.css
+```
+in the codeblock above replace <your_profile> with the name of your profile folder of thunderbird 
 
 ## For Thunderbird installed over Flatpack
 ```bash
-curl -L https://raw.githubusercontent.com/Nyaro01/thunderbird-calendar-theme/main/userChrome.css -o ~/.thunderbird/<your_profile>/chrome/userChrome.css
+mkdir ~/.var/app/org.mozilla.Thunderbird/.thunderbird/<your_profile>/chrome
+curl -L https://raw.githubusercontent.com/Nyaro01/thunderbird-calendar-theme/main/userChrome.css -o ~/.var/app/org.mozilla.Thunderbird/.thunderbird/<your_profile>/chrome/userChrome.css
 ```
-put the css file in the newlie created folder
-
-## For Thunderbird installed over standard Packagemanager
-```bash
-curl -L https://raw.githubusercontent.com/Nyaro01/thunderbird-calendar-theme/main/userChrome.css -o ~/.thunderbird/<your_profile>/chrome/userChrome.css
-```
-put the css file in the newlie created folder
+in the codeblock above replace <your_profile> with the name of your profile folder of thunderbird 
