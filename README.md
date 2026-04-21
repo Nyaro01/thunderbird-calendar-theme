@@ -2,10 +2,15 @@
 
 first you need to create an chrome folder under …/<your_profile>/
 
-## For Flatpack
+## For Thunderbird installed over Flatpack
 you need to put the css in to the 
-"~/.var/app/org.mozilla.Thunderbird/.thunderbird/<your_profile>/chrome"
-folder 
+```bash
+mkdir ~/.var/app/org.mozilla.Thunderbird/.thunderbird/<your_profile>/chrome
+cd ~/.var/app/org.mozilla.Thunderbird/.thunderbird/<your_profile>/chrome
+```
 
-## For the rest
-"~/.thunderbird/<your_profile>/chrome"
+## For Thunderbird installed over standard Packagemanager
+```
+mkdir ~/.thunderbird/<your_profile>/chrome
+cd ~/.thunderbird/<your_profile>/chrome
+```
