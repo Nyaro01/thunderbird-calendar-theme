@@ -2,7 +2,7 @@
 .calendar-category-box {
     margin: -20% -10% -10% 120% !important;
     width: 120% !important;
-    opacity: 0.55 !important;
+    opacity: 0.55 !important; /* with daker colors of the calendar you might need a lower opacity */
 }
 
 .alarm-icons-box, .reminder-icon {
