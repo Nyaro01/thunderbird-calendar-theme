@@ -10,7 +10,7 @@ cd ~/.var/app/org.mozilla.Thunderbird/.thunderbird/<your_profile>/chrome
 ```
 
 ## For Thunderbird installed over standard Packagemanager
-```
+```bash
 mkdir ~/.thunderbird/<your_profile>/chrome
 cd ~/.thunderbird/<your_profile>/chrome
 ```
