@@ -18,13 +18,13 @@ therefore
 ### Thunderbird installed over Packagemanagers like pacman, dnf, apt … 
 ```bash
 mkdir -p ~/.thunderbird/<your_profile>/chrome
-curl -L https://raw.githubusercontent.com/Nyaro01/thunderbird-calendar-theme/main/userChrome.css -o ~/.thunderbird/<your_profile>/chrome/userChrome.css
+curl -L https://raw.githubusercontent.com/Nyaro01/thunderbird-calendar-theme/main/calendarTheme.css -o ~/.thunderbird/<your_profile>/chrome/calendarTheme.css
 ```
 in the codeblock above replace <your_profile> with the name of your profile folder of thunderbird 
 
 ### For Thunderbird installed over Flatpack
 ```bash
 mkdir ~/.var/app/org.mozilla.Thunderbird/.thunderbird/<your_profile>/chrome
-curl -L https://raw.githubusercontent.com/Nyaro01/thunderbird-calendar-theme/main/userChrome.css -o ~/.var/app/org.mozilla.Thunderbird/.thunderbird/<your_profile>/chrome/userChrome.css
+curl -L https://raw.githubusercontent.com/Nyaro01/thunderbird-calendar-theme/main/calendarTheme.css -o ~/.var/app/org.mozilla.Thunderbird/.thunderbird/<your_profile>/chrome/calendarTheme.css
 ```
 in the codeblock above replace <your_profile> with the name of your profile folder of thunderbird 
