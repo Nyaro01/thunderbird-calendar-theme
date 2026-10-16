@@ -4,6 +4,11 @@ this css-theme uses the color of any category and displays it as background of t
 
 ![Theme Example](exampleImage.jpg)
 
+## enable custom CSS in Thunderbird
+go to settings -> general
+scroll down to Config Editor… (go into Advanced settings)
+and switch "toolkit.legacyUserProfileCustomizations.stylesheets" to true
+
 ## install
 
 first you need to find out what the name of your profile folder is
